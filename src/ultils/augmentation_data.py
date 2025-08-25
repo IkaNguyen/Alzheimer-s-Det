@@ -8,9 +8,9 @@ from matplotlib import pyplot as plt
 AUGMENT_TIMES_DEFAULT = 0 # Số lần tăng cường mặc định nếu không được định nghĩa cụ thể
 
 # Cập nhật đường dẫn gốc đến thư mục chứa các nhãn của dataset Alzheimer's
-base_original_data = r"C:\Users\nguye\Downloads\ML-DL\Dataset\AlzheimerData"
+base_original_data = "your path"
 # Tạo một thư mục riêng biệt cho tất cả ảnh đã tăng cường của dataset này
-base_augmented_data = r"C:\Users\nguye\Downloads\ML-DL\Dataset\AlzheimerData_Augmented"
+base_augmented_data = "your path"
 os.makedirs(base_augmented_data, exist_ok=True)
 
 print(f"Đường dẫn dữ liệu gốc: {base_original_data}")
